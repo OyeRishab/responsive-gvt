@@ -1,40 +1,26 @@
 body {
   margin: 0;
-  font-family: 'Satisfy', cursive;
+}
 
+header {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/gangavathi.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Satisfy';
+  
 }
 
 h1 {
   margin: 0;
-  margin-top: 1em;
-  font-size: 7vw;
+  padding-top: 2em;
+  font-size: 4.5rem;
+  font-weight: 600;
 }
-
 h2 {
-  margin: 0;
-  font-size: 3.5vw;
-}
-
-@media (max-width: 765px) {
-  h1 {
-    margin-top: 2em;
-    font-size: 14vw;
-  }
-
-  h2 {
-    font-size: 7vw;
-  }
-}
-
-div {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(images/gangavathi.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  font-size: 3rem;
+  font-weight: 200;
 }
